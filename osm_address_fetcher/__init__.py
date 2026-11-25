@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 /***************************************************************************
  OSMAddressFetcher
@@ -8,7 +8,7 @@
                              -------------------
         begin                : 2026-10-16
         copyright            : (C) 2026 by Rakshith
-        email                : rakshith440@gmailcom
+        email                : rakshith440@gmail.com
         git sha              : $Format:%H$
  ***************************************************************************/
 
@@ -34,3 +34,4 @@ def classFactory(iface):  # pylint: disable=invalid-name
     #
     from .osm_address_fetcher import OSMAddressFetcher
     return OSMAddressFetcher(iface)
+

@@ -1,4 +1,4 @@
-# coding=utf-8
+﻿# coding=utf-8
 """DockWidget test.
 
 .. note:: This program is free software; you can redistribute it and/or modify
@@ -8,7 +8,7 @@
 
 """
 
-__author__ = 'rakshith440@gmailcom'
+__author__ = 'rakshith440@gmail.com'
 __date__ = '2026-10-16'
 __copyright__ = 'Copyright 2026, Rakshith'
 
@@ -43,4 +43,5 @@ if __name__ == "__main__":
     suite = unittest.makeSuite(OSMAddressFetcherDockWidgetTest)
     runner = unittest.TextTestRunner(verbosity=2)
     runner.run(suite)
+
 
