@@ -1,0 +1,59 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# QGIS and local data
+*.qgz
+*.qgs~
+*.gpkg
+*.gpkg-shm
+*.gpkg-wal
+*.sqlite
+*.db
+*.osm
+*.pbf
+
+# Large geospatial files
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.geojson
+*.parquet
+*.geoparquet
+*.fgb
+
+# Archives and generated packages
+*.zip
+build/
+dist/
+package/
+
+# Local settings and credentials
+.env
+.env.*
+config.local.json
+settings.local.json
+credentials.json
+secrets.json
+*.key
+
+# Editors
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# QGIS plugin development backups
+*_backup.py
+*_backup.ui
+*.bak
+*.tmp
